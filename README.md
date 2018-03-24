@@ -13,6 +13,7 @@ local Klei folder for the shard.
 # Console command
 ```
 docker exec overworld dst-server console "c_announce('Hello everybody')"
+docker exec overworld dst-server console "c_rollback(1)" # Rollback for 2 days
 ```
 
 ref - http://dontstarve.wikia.com/wiki/Console/Don%27t_Starve_Together_Commands
